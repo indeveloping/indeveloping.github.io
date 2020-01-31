@@ -1,1 +1,842 @@
-<!DOCTYPE html><div lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Наши контакты</title><meta name="description" content="Стратегия развития. Система добровольной сертификации."><link rel="preload" href="assets/styles/styles.min.css" as="style"><link rel="stylesheet" href="assets/styles/styles.min.css"><link rel="preload" href="assets/fonts/robotoregular.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="assets/fonts/robotoregular.woff" as="font" type="font/woff" crossorigin="anonymous"><link rel="preload" href="assets/fonts/robotomedium.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="assets/fonts/robotomedium.woff" as="font" type="font/woff" crossorigin="anonymous"><link rel="preload" href="assets/fonts/robotobold.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="assets/fonts/robotobold.woff" as="font" type="font/woff" crossorigin="anonymous"></head><body><header class="page-header"><div class="page-header__top"><div class="inner page-header__inner"><a class="logo page-header__logo" href="./"><img src="assets/images/logo.png" width="340" height="70" alt="Логотип компании Стратегия Развития"></a><div class="page-header__top-right"><div class="contact page-header__location"><span class="contact__icon page-header__contact-icon"><svg width="17" height="22" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-location"></use></svg></span><div class="contact__column"><p class="contact__label page-header__contact-label">Ваш регион</p><p class="contact__content page-header__contact-content"><a href="#">Москва</a> <button id="locationButton" class="page-header__contact-add"><svg width="10" height="5" viewBox="0 0 10 5" xmlns="http://www.w3.org/2000/svg"><path d="M0 0L5 5L10 0H0Z"/></svg></button></p></div></div><div class="contact page-header__phone"><span class="contact__icon page-header__contact-icon"><svg width="25" height="25" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-call"></use></svg></span><div class="contact__column"><p class="contact__label page-header__contact-label">Наш телефон</p><p class="contact__content page-header__contact-content"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>работаем с 9 до 18:00 <button id="contactButton" class="page-header__contact-add"><svg width="10" height="5" viewBox="0 0 10 5" xmlns="http://www.w3.org/2000/svg"><path d="M0 0L5 5L10 0H0Z"/></svg></button></p></div></div><button id="feedbackButton" class="button page-header__button">Заказать звонок</button><ul id="contactList" class="page-header__contact-phones"><li>+7 (800) 123-45-74 (Москва)</li><li>+7 (800) 123-45-74 (Санкт-Петербург)</li><li>+7 (800) 123-45-74 (Казань)</li><li>+7 (800) 123-45-74 (Нижний Новгород)</li></ul></div></div></div><div class="page-header__bottom"><div class="inner page-header__bottom-inner"><nav class="page-navigation"><ul class="page-navigation__list"><li class="page-navigation__item"><a class="page-navigation__link" href="#">Сертификаты ISO</a><div class="page-navigation__sub"><p class="page-navigation__heading">Отраслевые сертификаты ISO</p><ul class="page-navigation__sublist"><li><a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a></li><li><a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a></li><li><a href="#">ГОСТ Р 54934/OHSAS 18001</a></li><li><a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a></li><li><a href="#">ГОСТ Р 53662 (ISO 28000)</a></li><li><a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a></li><li><a href="#">ГОСТ 12.0.230.2</a></li><li><a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a></li><li><a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a></li><li><a href="#">ГОСТ Р 54934/OHSAS 18001</a></li><li><a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a></li><li><a href="#">ГОСТ Р 53662 (ISO 28000)</a></li><li><a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a></li><li><a href="#">ГОСТ 12.0.230.2</a></li><li><a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a></li><li><a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a></li><li><a href="#">ГОСТ Р 54934/OHSAS 18001</a></li><li><a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a></li><li><a href="#">ГОСТ Р 53662 (ISO 28000)</a></li><li><a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a></li><li><a href="#">ГОСТ 12.0.230.2</a></li></ul><p class="page-navigation__heading">Ещё какие - нибудь сертификаты ISO</p><ul class="page-navigation__sublist"><li><a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a></li><li><a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a></li><li><a href="#">ГОСТ Р 54934/OHSAS 18001</a></li><li><a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a></li><li><a href="#">ГОСТ Р 53662 (ISO 28000)</a></li><li><a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a></li><li><a href="#">ГОСТ 12.0.230.2</a></li><li><a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a></li></ul></div></li><li class="page-navigation__item"><a class="page-navigation__link" href="#">Сертификаты ГОСТ</a><div class="page-navigation__sub"><p class="page-navigation__heading">Отраслевые сертификаты ГОСТ</p><ul class="page-navigation__sublist"><li><a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a></li><li><a href="#">ГОСТ Р 54934/OHSAS 18001</a></li><li><a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a></li><li><a href="#">ГОСТ Р 53662 (ISO 28000)</a></li><li><a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a></li><li><a href="#">ГОСТ 12.0.230.2</a></li><li><a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a></li></ul></div></li><li class="page-navigation__item"><a class="page-navigation__link" href="#">Реестр</a></li><li class="page-navigation__item"><a class="page-navigation__link" href="#">Контакты</a></li><li class="page-navigation__item"><a class="page-navigation__link" href="#">Кабинет</a></li></ul></nav><form class="site-search page-header__site-search" action="#"><label class="visually-hidden" for="siteSearch">Поиск по услугам</label> <input id="siteSearch" class="site-search__field" type="text" placeholder="Поиск по услугам..."> <button class="site-search__button"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8.33329 15C9.81244 14.9997 11.249 14.5045 12.4141 13.5933L16.0775 17.2567L17.2558 16.0783L13.5925 12.415C14.5041 11.2497 14.9996 9.81286 15 8.33333C15 4.6575 12.0091 1.66666 8.33329 1.66666C4.65746 1.66666 1.66663 4.6575 1.66663 8.33333C1.66663 12.0092 4.65746 15 8.33329 15ZM8.33329 3.33333C11.0908 3.33333 13.3333 5.57583 13.3333 8.33333C13.3333 11.0908 11.0908 13.3333 8.33329 13.3333C5.57579 13.3333 3.33329 11.0908 3.33329 8.33333C3.33329 5.57583 5.57579 3.33333 8.33329 3.33333Z" fill="white"/></svg></button></form></div></div></header><main><div class="heading-wrap"><ol class="breadcrumbs heading-wrap__breadcrumbs"><li class="breadcrumbs__item"><a href="./">Главная</a></li><li class="breadcrumbs__item breadcrumbs__item--current">Контакты</li></ol><h1 class="page-title">Наши контакты</h1></div><div class="page-contact__feedback"><div class="inner"><div class="row"><div class="column page-contact__column"><h2 class="page-contact__title">Система добровольной сертификации «Единый центр сертификации»</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis potenti nibh adipiscing arcu sit sit diam enim. Felis, in non suscipit suspendisse ultricies amet, tristique nunc sit. Enim in consectetur consequat arcu. Nunc nulla libero amet, sed. Quis maecenas sapien est iaculis sit. Laoreet tristique viverra ut turpis in amet, pellentesque faucibus. Etiam tellus vel malesuada sit viverra tempor pellentesque turpis morbi. Dis suspendisse nunc proin etiam viverra odio ut pharetra. Mauris, accumsan risus tincidunt elit sed tortor. Sed porta elit sit venenatis, eu sit a sagittis nec. Dictum faucibus tincidunt feugiat risus, aliquam sodales lectus vitae sagittis. Consectetur morbi pellentesque est netus tortor diam ipsum eget. Dictum risus eget amet ut. Vitae sit ac quis nulla. Lectus phasellus.</p></div><div class="column page-contact__column"><h3 class="page-contact__title">Есть вопросы - напишите нам</h3><p class="page-contact__description">Наш специалист перезвонит вам в течении получаса и ответит на ваши вопросы</p><form class="form page-contact__form" action="#"><p class="form__item page-contact__form-item"><label class="form__label" for="userName">Как вас зовут?</label> <input id="userName" class="form__field" type="text" placeholder="Иван Иванов"></p><p class="form__item page-contact__form-item"><label class="form__label" for="userPhone">Ваш телефон?</label> <input id="userPhone" class="form__field" type="tel" placeholder="+7 (995) 123-45-67"></p><p class="form__item form__item--full-width"><label class="form__label" for="userMessage">Что вас интересует</label> <input id="userMessage" class="form__field" type="text" placeholder="Ваш вопрос"></p><button class="button button__submit">Задать вопрос</button></form></div></div></div></div><div class="box"><div class="inner"><h2 class="heading">Наши <span>контакты и эксперты</span></h2><section class="experts"><h3 class="visually-hidden">Наши эксперты</h3><ul class="experts__list"><li class="expert experts__item"><img class="expert__photo" src="assets/images/photo-anna-dmitrievna@1x.png" width="150" height="150" alt="Анна Дмитриева"><h3 class="expert__name">Анна Дмитриева</h3><p class="expert__position">Руководитель отдела продаж</p><p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p><button class="button expert__button">Задать вопрос</button><div class="expert__contacts"><a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow" title="Whatsapp эксперта Анны Дмитриевой"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z"/></svg> </a><a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Анны Дмитриевой"><svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg"><path d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z"/></svg></a></div></li><li class="expert experts__item"><img class="expert__photo" src="assets/images/photo-marina-radvilovich@1x.png" width="150" height="150" alt="Марина Радвилович"><h3 class="expert__name">Марина Радвилович</h3><p class="expert__position">Менеджер по продажам</p><p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p><button class="button expert__button">Задать вопрос</button><div class="expert__contacts"><a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow" title="Whatsapp эксперта Марины Радвилович"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z"/></svg> </a><a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Марины Радвилович"><svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg"><path d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z"/></svg></a></div></li><li class="expert experts__item"><img class="expert__photo" src="assets/images/photo-anna-dmitrievna@1x(1).png" width="150" height="150" alt="Анна Дмитриева"><h3 class="expert__name">Анна Дмитриева</h3><p class="expert__position">Руководитель отдела продаж</p><p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p><button class="button expert__button">Задать вопрос</button><div class="expert__contacts"><a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow" title="Whatsapp эксперта Анны Дмитриевой"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z"/></svg> </a><a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Анны Дмитриевой"><svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg"><path d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z"/></svg></a></div></li><li class="expert experts__item"><img class="expert__photo" src="assets/images/photo-anna-dmitrievna@1x(2).png" width="150" height="150" alt="Анна Дмитриева"><h3 class="expert__name">Анна Дмитриева</h3><p class="expert__position">Руководитель отдела продаж</p><p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p><button class="button expert__button">Задать вопрос</button><div class="expert__contacts"><a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow" title="Whatsapp эксперта Анны Дмитриевой"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z"/></svg> </a><a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Анны Дмитриевой"><svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg"><path d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z"/></svg></a></div></li></ul></section><section class="contacts"><h3 class="visually-hidden">Наши контакты</h3><ul class="contacts__list"><li class="contact-card contacts__item"><img class="contact-card__image" src="assets/images/photo-moscow@1x.jpg" width="310" height="110" alt="Изображение"><div class="contact__wrap"><address class="contact contact-card__item"><span class="contact__icon"><svg width="17" height="22" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-location"></use></svg></span><div class="contact__column"><p class="contact__label">Москва</p><p class="contact__content"><a href="#">ул. Иванова 15</a><br>д. 10 БЦ «Крол»</p></div></address><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="25" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-call"></use></svg></span><div class="contact__column"><p class="contact__label">Телефон</p><p class="contact__content"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>работаем с 9 до 18:00</p></div></div><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="20" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-mail"></use></svg></span><div class="contact__column"><p class="contact__label">E-mail</p><p class="contact__content"><a href="mailto:">info-spb@isorus.ru</a><br>отдел продаж</p></div></div></div></li><li class="contact-card contacts__item"><img class="contact-card__image" src="assets/images/photo-saints-peterburg@1x.jpg" width="310" height="110" alt="Изображение"><div class="contact__wrap"><address class="contact contact-card__item"><span class="contact__icon"><svg width="17" height="22" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-location"></use></svg></span><div class="contact__column"><p class="contact__label">Москва</p><p class="contact__content"><a href="#">ул. Иванова 15</a><br>д. 10 БЦ «Крол»</p></div></address><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="25" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-call"></use></svg></span><div class="contact__column"><p class="contact__label">Телефон</p><p class="contact__content"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>работаем с 9 до 18:00</p></div></div><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="20" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-mail"></use></svg></span><div class="contact__column"><p class="contact__label">E-mail</p><p class="contact__content"><a href="mailto:">info-spb@isorus.ru</a><br>отдел продаж</p></div></div></div></li><li class="contact-card contacts__item"><img class="contact-card__image" src="assets/images/photo-kazan@1x.jpg" width="310" height="110" alt="Изображение"><div class="contact__wrap"><address class="contact contact-card__item"><span class="contact__icon"><svg width="17" height="22" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-location"></use></svg></span><div class="contact__column"><p class="contact__label">Москва</p><p class="contact__content"><a href="#">ул. Иванова 15</a><br>д. 10 БЦ «Крол»</p></div></address><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="25" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-call"></use></svg></span><div class="contact__column"><p class="contact__label">Телефон</p><p class="contact__content"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>работаем с 9 до 18:00</p></div></div><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="20" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-mail"></use></svg></span><div class="contact__column"><p class="contact__label">E-mail</p><p class="contact__content"><a href="mailto:">info-spb@isorus.ru</a><br>отдел продаж</p></div></div></div></li><li class="contact-card contacts__item"><img class="contact-card__image" src="assets/images/photo-nizhny-novgorod@1x.jpg" width="310" height="110" alt="Изображение"><div class="contact__wrap"><address class="contact contact-card__item"><span class="contact__icon"><svg width="17" height="22" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-location"></use></svg></span><div class="contact__column"><p class="contact__label">Москва</p><p class="contact__content"><a href="#">ул. Иванова 15</a><br>д. 10 БЦ «Крол»</p></div></address><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="25" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-call"></use></svg></span><div class="contact__column"><p class="contact__label">Телефон</p><p class="contact__content"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>работаем с 9 до 18:00</p></div></div><div class="contact contact-card__item"><span class="contact__icon"><svg width="25" height="20" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-mail"></use></svg></span><div class="contact__column"><p class="contact__label">E-mail</p><p class="contact__content"><a href="mailto:">info-spb@isorus.ru</a><br>отдел продаж</p></div></div></div></li></ul></section></div></div></main><footer class="page-footer"><div class="page-footer__top"><div class="inner"><a class="logo page-footer__logo" href="./"><img src="assets/images/logo.png" width="340" height="70" alt="Логотип компании Стратегия Развития"></a><div class="page-footer__contacts"><p class="page-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat elementum sapien, nulla justo lorem ac pellentesque nibh aliquet.</p><div class="contact page-footer__contact page-footer__contact-phone"><span class="contact__icon page-footer__contact-icon"><svg width="17" height="22" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-call"></use></svg></span><div class="contact__column"><p class="contact__label">Звонок по РФ бесплатный</p><p class="contact__content page-footer__contact-content"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>мы работаем с 9 до 18:00</p></div></div><div class="contact page-footer__contact"><span class="contact__icon page-footer__contact-icon"><svg width="25" height="25" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-mail"></use></svg></span><div class="contact__column"><p class="contact__label">Наша почта</p><p class="contact__content page-footer__contact-content"><a href="mailto:">info@nashsire.ru</a></p></div></div></div></div></div><div class="page-footer__bottom"><div class="inner page-footer__bottom-wrap"><p class="page-footer__copyright">© 2020 Общество с ограниченной ответственностью "Стратерия развития"<br>Сертификация продукции. Обязательная сертификация, добровольная сертификация.</p><p class="page-footer__bottom-links"><a href="#">Политика конфиденциальности</a> <a href="#">Согласие на обработку персональных данных</a></p></div></div></footer><div id="feedbackModal" class="modal modal__feedback"><div class="modal__inner"><button id="feedbackClose" class="modal__close" title="Закрыть окно"><svg width="40" height="40" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-close"></use></svg> <span class="visually-hidden">Закрыть окно</span></button><h2 class="modal__title">Есть вопросы - закажите обратный звонок</h2><p class="modal__description">Наш специалист перезвонит вам в течении получаса и ответит на ваши вопросы</p><form class="form modal__form" action="#"><p class="form__item modal__form-item"><label class="form__label" for="userName">Как вас зовут?</label> <input id="userName" class="form__field" type="text" placeholder="Иван Иванов"></p><p class="form__item modal__form-item"><label class="form__label" for="userPhone">Ваш телефон?</label> <input id="userPhone" class="form__field" type="tel" placeholder="+7 (995) 123-45-67"></p><p class="form__item form__item--full-width"><label class="form__label" for="userMessage">Что вас интересует</label> <input id="userMessage" class="form__field" type="text" placeholder="Ваш вопрос"></p><button class="button button__submit">Задать вопрос</button></form></div></div><div id="locationModal" class="modal modal__location"><div class="modal__inner"><button id="locationClose" class="modal__close" title="Закрыть окно"><svg width="40" height="40" aria-hidden="true"><use xlink:href="assets/images/sprite.svg#icon-close"></use></svg> <span class="visually-hidden">Закрыть окно</span></button><div class="modal__location-section"><p class="modal__location__letter">А</p><ul class="modal__location-list"><li>Абакан</li><li>Азов</li><li>Александров</li><li>Алексин</li><li>Альметьевск</li><li>Анапа</li><li>Ангарск</li><li>Абакан</li><li>Азов</li><li>Александров</li><li>Алексин</li><li>Альметьевск</li><li>Анапа</li><li>Ангарск</li><li>Абакан</li><li>Азов</li><li>Александров</li><li>Алексин</li><li>Альметьевск</li><li>Анапа</li><li>Ангарск</li></ul></div><div class="modal__location-section"><p class="modal__location__letter">Б</p><ul class="modal__location-list"><li>Балаково</li><li>Балахна</li><li>Балашиха</li><li>Балашов</li><li>Барнаул</li><li>Батайск</li><li>Белгород</li><li>Балаково</li><li>Балахна</li><li>Балашиха</li><li>Балашов</li><li>Барнаул</li><li>Батайск</li><li>Белгород</li><li>Балаково</li><li>Балахна</li><li>Балашиха</li><li>Балашов</li><li>Барнаул</li><li>Батайск</li><li>Белгород</li></ul></div></div></div><div id="overlayModal" class="modal-overlay"></div><script src="assets/scripts/script.min.js"></script></body></div>
+<!DOCTYPE html>
+<div lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Наши контакты</title>
+    <meta name="description" content="Стратегия развития. Система добровольной сертификации.">
+    <link rel="preload" href="assets/styles/styles.min.css" as="style">
+    <link rel="stylesheet" href="assets/styles/styles.min.css">
+    <link rel="preload" href="assets/fonts/robotoregular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/robotoregular.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/robotomedium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/robotomedium.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/robotobold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="assets/fonts/robotobold.woff" as="font" type="font/woff" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="page-header__top">
+        <div class="inner page-header__top-inner">
+          <a class="logo page-header__logo" href="./">
+            <picture>
+              <source type="image/webp" srcset="assets/images/logo.webp">
+              <img class="contact-card__image" src="assets/images/logo.png" alt="Логотип компании Стратегия Развития">
+            </picture>
+          </a>
+          <div class="page-header__right">
+            <div class="contact page-header__location">
+              <span class="contact__icon page-header__contact-icon">
+                <svg width="17" height="22" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-location"></use>
+                </svg>
+              </span>
+              <div class="contact__text">
+                <p class="contact__header page-header__contact-header">Ваш регион</p>
+                <p class="contact__body page-header__contact-body">
+                  <a title="Ваш город">Москва</a>
+                  <button id="locationButton" class="page-header__contact-add" type="button"
+                    title="Выбрать другой город">
+                    <svg width="10" height="5" viewBox="0 0 10 5" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L5 5L10 0H0Z" />
+                    </svg>
+                  </button>
+                </p>
+              </div>
+            </div>
+            <div class="contact page-header__phone">
+              <span class="contact__icon page-header__contact-icon">
+                <svg width="25" height="25" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+                </svg>
+              </span>
+              <div class="contact__text page-header__contact-text">
+                <p class="contact__header page-header__contact-header">Наш телефон</p>
+                <p class="contact__body page-header__contact-body">
+                  <a href="tel:+79951234567">+7 (995) 123-45-67</a><br>
+                  мы работаем с 9 до 21:00
+                  <button id="contactButton" class="page-header__contact-add" type="button"
+                    title="Выбрать другой номер телефона">
+                    <svg width="10" height="5" viewBox="0 0 10 5" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0L5 5L10 0H0Z" />
+                    </svg>
+                  </button>
+                </p>
+              </div>
+            </div>
+            <button class="button page-header__button button__feedback--js">Заказать звонок</button>
+            <ul id="contactList" class="page-header__all-phones">
+              <li><a href="#">+7 (800) 123-45-74 (Москва)</a></li>
+              <li><a href="#">+7 (800) 123-45-74 (Санкт-Петербург)</a></li>
+              <li><a href="#">+7 (800) 123-45-74 (Казань)</a></li>
+              <li><a href="#">+7 (800) 123-45-74 (Нижний Новгород)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="page-header__bottom">
+        <div class="inner page-header__bottom-inner">
+          <nav class="page-navigation">
+            <ul class="page-navigation__list">
+              <li class="page-navigation__item">
+                <a class="page-navigation__link" href="#">Сертификаты ISO</a>
+                <div class="page-navigation__sub">
+                  <p class="page-navigation__heading">Отраслевые сертификаты ISO</p>
+                  <ul class="page-navigation__sublist">
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 54934/OHSAS 18001</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 53662 (ISO 28000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ 12.0.230.2</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 54934/OHSAS 18001</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 53662 (ISO 28000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ 12.0.230.2</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 54934/OHSAS 18001</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 53662 (ISO 28000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ 12.0.230.2</a>
+                    </li>
+                  </ul>
+                  <p class="page-navigation__heading">Ещё какие - нибудь сертификаты ISO</p>
+                  <ul class="page-navigation__sublist">
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 14001 (ISO 14001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 54934/OHSAS 18001</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 53662 (ISO 28000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ 12.0.230.2</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="page-navigation__item">
+                <a class="page-navigation__link" href="#">Сертификаты ГОСТ</a>
+                <div class="page-navigation__sub">
+                  <p class="page-navigation__heading">Отраслевые сертификаты ГОСТ</p>
+                  <ul class="page-navigation__sublist">
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 54934/OHSAS 18001</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 31000 (ISO 31000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р 53662 (ISO 28000)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 50001 (ISO 50001)</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ 12.0.230.2</a>
+                    </li>
+                    <li>
+                      <a href="#">ГОСТ Р ИСО 9001 (ISO 9001)</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="page-navigation__item">
+                <a class="page-navigation__link" href="#">Реестр</a>
+              </li>
+              <li class="page-navigation__item">
+                <a class="page-navigation__link" href="#">Контакты</a>
+              </li>
+              <li class="page-navigation__item">
+                <a class="page-navigation__link" href="#">Кабинет</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="site-search page-header__site-search" action="#">
+            <label class="visually-hidden" for="siteSearch">Поиск по услугам</label>
+            <input id="siteSearch" class="site-search__field" type="text" placeholder="Поиск по услугам...">
+            <button class="site-search__button" type="button" title="Искать">
+              <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.33329 15C9.81244 14.9997 11.249 14.5045 12.4141 13.5933L16.0775 17.2567L17.2558 16.0783L13.5925 12.415C14.5041 11.2497 14.9996 9.81286 15 8.33333C15 4.6575 12.0091 1.66666 8.33329 1.66666C4.65746 1.66666 1.66663 4.6575 1.66663 8.33333C1.66663 12.0092 4.65746 15 8.33329 15ZM8.33329 3.33333C11.0908 3.33333 13.3333 5.57583 13.3333 8.33333C13.3333 11.0908 11.0908 13.3333 8.33329 13.3333C5.57579 13.3333 3.33329 11.0908 3.33329 8.33333C3.33329 5.57583 5.57579 3.33333 8.33329 3.33333Z"
+                  fill="white" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="heading-wrap">
+        <ol class="breadcrumbs heading-wrap__breadcrumbs">
+          <li class="breadcrumbs__item"><a href="./">Главная</a></li>
+          <li class="breadcrumbs__item breadcrumbs__item--current">Контакты</li>
+        </ol>
+        <h1 class="page-title">Наши контакты</h1>
+      </div>
+      <div class="page-contact__feedback">
+        <div class="inner">
+          <div class="row">
+            <div class="column page-contact__column">
+              <h2 class="page-contact__title">Система добровольной сертификации «Единый центр сертификации»</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis potenti nibh adipiscing arcu sit sit
+                diam
+                enim. Felis, in non suscipit suspendisse ultricies amet, tristique nunc sit. Enim in consectetur
+                consequat
+                arcu. Nunc nulla libero amet, sed. Quis maecenas sapien est iaculis sit. Laoreet tristique viverra ut
+                turpis
+                in amet, pellentesque faucibus. Etiam tellus vel malesuada sit viverra tempor pellentesque turpis morbi.
+                Dis
+                suspendisse nunc proin etiam viverra odio ut pharetra.
+                Mauris, accumsan risus tincidunt elit sed tortor. Sed porta elit sit venenatis, eu sit a sagittis nec.
+                Dictum
+                faucibus tincidunt feugiat risus, aliquam sodales lectus vitae sagittis. Consectetur morbi pellentesque
+                est
+                netus tortor diam ipsum eget. Dictum risus eget amet ut. Vitae sit ac quis nulla. Lectus phasellus.</p>
+            </div>
+            <div class="column page-contact__column">
+              <h3 class="page-contact__title">Есть вопросы - напишите нам</h3>
+              <p class="page-contact__description">Наш специалист перезвонит вам в течении получаса и ответит на ваши
+                вопросы</p>
+              <form class="form page-contact__form" action="#">
+                <p class="form__item page-contact__form-item">
+                  <span class="form__icon">
+                    <svg width="16" height="16" aria-hidden="true">
+                      <use xlink:href="assets/images/sprite.svg#icon-user"></use>
+                    </svg>
+                  </span>
+                  <label class="form__label" for="userName">Как вас зовут?</label>
+                  <input id="userName" class="form__field" type="text" placeholder="Иван Иванов">
+                </p>
+                <p class="form__item page-contact__form-item">
+                  <span class="form__icon">
+                    <svg width="16" height="16" aria-hidden="true">
+                      <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+                    </svg>
+                  </span>
+                  <label class="form__label" for="userPhone">Ваш телефон?</label>
+                  <input id="userPhone" class="form__field" type="tel" placeholder="+7 (995) 123-45-67">
+                </p>
+                <p class="form__item form__item--full-width">
+                  <span class="form__icon">
+                    <svg width="16" height="16" aria-hidden="true">
+                      <use xlink:href="assets/images/sprite.svg#icon-message"></use>
+                    </svg>
+                  </span>
+                  <label class="form__label" for="userMessage">Что вас интересует</label>
+                  <input id="userMessage" class="form__field" type="text" placeholder="Ваш вопрос">
+                </p>
+                <button class="button button--wide">Задать вопрос</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="inner">
+          <h2 class="heading">Наши <span>контакты и эксперты</span></h2>
+
+          <section class="experts">
+            <h3 class="visually-hidden">Наши эксперты</h3>
+            <div class="experts-swiper">
+              <ul class="experts__list swiper-wrapper">
+                <li class="expert experts__item swiper-slide">
+                  <picture class="expert__photo">
+                    <source type="image/webp" srcset="assets/images/photo-anna-dmitrievna@1x.webp">
+                    <img class="popular-product__photo" src="assets/images/photo-anna-dmitrievna@1x.png"
+                      alt="Фотография Анны Дмитриеной">
+                  </picture>
+                  <h3 class="expert__name">Анна Дмитриева</h3>
+                  <p class="expert__position">Руководитель отдела продаж</p>
+                  <p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p>
+                  <button class="button expert__button expert__button--js">Задать вопрос</button>
+                  <div class="expert__contacts">
+                    <a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow"
+                      title="Whatsapp эксперта Анны Дмитриевой">
+                      <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z" />
+                      </svg>
+                      <span class="visually-hidden">Whatsapp эксперта Анны Дмитриевой</span>
+                    </a>
+                    <a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Анны Дмитриевой">
+                      <svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z" />
+                      </svg>
+                      <span class="visually-hidden">Почта эксперта Анны Дмитриевой</span>
+                    </a>
+                  </div>
+                </li>
+                <li class="expert experts__item swiper-slide">
+                  <picture class="expert__photo">
+                    <source type="image/webp" srcset="assets/images/photo-marina-radvilovich@1x.webp">
+                    <img class="popular-product__photo" src="assets/images/photo-marina-radvilovich@1x.png"
+                      alt="Фотография Марины Радвилович">
+                  </picture>
+                  <h3 class="expert__name">Марина Радвилович</h3>
+                  <p class="expert__position">Менеджер по продажам</p>
+                  <p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p>
+                  <button class="button expert__button expert__button--js">Задать вопрос</button>
+                  <div class="expert__contacts">
+                    <a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow"
+                      title="Whatsapp эксперта Анны Дмитриевой">
+                      <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z" />
+                      </svg>
+                      <span class="visually-hidden">Whatsapp эксперта Анны Дмитриевой</span>
+                    </a>
+                    <a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Анны Дмитриевой">
+                      <svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z" />
+                      </svg>
+                      <span class="visually-hidden">Почта эксперта Анны Дмитриевой</span>
+                    </a>
+                  </div>
+                </li>
+                <li class="expert experts__item swiper-slide">
+                  <picture class="expert__photo">
+                    <source type="image/webp" srcset="assets/images/photo-anna-dmitrievna@1x(1).webp">
+                    <img class="popular-product__photo" src="assets/images/photo-anna-dmitrievna@1x(1).png"
+                      alt="Фотография Анны Дмитриеной">
+                  </picture>
+                  <h3 class="expert__name">Анна Дмитриева</h3>
+                  <p class="expert__position">Руководитель отдела продаж</p>
+                  <p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p>
+                  <button class="button expert__button expert__button--js">Задать вопрос</button>
+                  <div class="expert__contacts">
+                    <a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow"
+                      title="Whatsapp эксперта Анны Дмитриевой">
+                      <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z" />
+                      </svg>
+                      <span class="visually-hidden">Whatsapp эксперта Анны Дмитриевой</span>
+                    </a>
+                    <a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Анны Дмитриевой">
+                      <svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z" />
+                      </svg>
+                      <span class="visually-hidden">Почта эксперта Анны Дмитриевой</span>
+                    </a>
+                  </div>
+                </li>
+                <li class="expert experts__item swiper-slide">
+                  <picture class="expert__photo">
+                    <source type="image/webp" srcset="assets/images/photo-anna-dmitrievna@1x(2).webp">
+                    <img class="popular-product__photo" src="assets/images/photo-anna-dmitrievna@1x(2).png"
+                      alt="Фотография Анны Дмитриеной">
+                  </picture>
+                  <h3 class="expert__name">Анна Дмитриева</h3>
+                  <p class="expert__position">Руководитель отдела продаж</p>
+                  <p class="expert__competence">Сертификация ИСО, Сертификация на продукцию, Обучение, Аттестация</p>
+                  <button class="button expert__button expert__button--js">Задать вопрос</button>
+                  <div class="expert__contacts">
+                    <a href="https://wa.me/79990000000" target="_blank" rel="noopener nofollow"
+                      title="Whatsapp эксперта Анны Дмитриевой">
+                      <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M29.16 23.9713C28.6587 23.7175 26.2175 22.5263 25.7612 22.3563C25.305 22.1938 24.9737 22.1087 24.6412 22.61C24.3162 23.0987 23.3587 24.2175 23.0662 24.5438C22.7737 24.87 22.4862 24.895 21.9925 24.6737C21.4912 24.42 19.89 23.8987 17.9888 22.1937C16.5037 20.8725 15.515 19.245 15.2213 18.7437C14.9288 18.2488 15.1888 17.9688 15.4362 17.7213C15.6637 17.4937 15.9375 17.1488 16.1912 16.8488C16.4325 16.5487 16.51 16.3475 16.6863 16.0225C16.8487 15.6712 16.765 15.3975 16.6413 15.15C16.5175 14.9025 15.5212 12.4488 15.105 11.4713C14.7075 10.5013 14.2912 10.625 13.985 10.625C13.6987 10.5988 13.3663 10.5988 13.035 10.5988C12.7038 10.5988 12.1625 10.7225 11.7062 11.1975C11.25 11.6988 9.96125 12.8962 9.96125 15.3188C9.96125 17.7475 11.745 20.0975 11.9925 20.4487C12.2463 20.7737 15.5013 25.7737 20.495 27.9225C21.6863 28.4237 22.6112 28.7237 23.3337 28.9713C24.525 29.3487 25.6125 29.2962 26.4713 29.1725C27.4212 29.0162 29.4137 27.9675 29.8312 26.7962C30.255 25.6175 30.255 24.6412 30.1312 24.42C30.0075 24.1925 29.6825 24.0687 29.1812 23.8475L29.16 23.9713ZM20.1038 36.25H20.0775C17.1213 36.25 14.1988 35.4487 11.6463 33.9512L11.0475 33.5938L4.7975 35.2212L6.4775 29.14L6.07375 28.515C4.42308 25.8904 3.54737 22.853 3.5475 19.7525C3.5475 10.6775 10.9763 3.275 20.1163 3.275C24.5438 3.275 28.6975 5 31.8225 8.125C33.3641 9.64824 34.5869 11.4632 35.4196 13.4641C36.2523 15.4649 36.6782 17.6116 36.6725 19.7787C36.66 28.8475 29.2375 36.25 20.11 36.25H20.1038ZM34.1987 5.74875C30.3962 2.07625 25.3962 0 20.0775 0C9.1075 0 0.175 8.89375 0.16875 19.8237C0.16875 23.3138 1.08 26.7188 2.825 29.7325L0 40L10.56 37.2463C13.4854 38.8235 16.7553 39.6531 20.0788 39.6613H20.085C31.0613 39.6613 39.9938 30.7675 40 19.83C40 14.5375 37.9363 9.55625 34.1738 5.8125L34.1987 5.74875Z" />
+                      </svg>
+                      <span class="visually-hidden">Whatsapp эксперта Анны Дмитриевой</span>
+                    </a>
+                    <a href="mailto:" target="_blank" rel="noopener nofollow" title="Почта эксперта Анны Дмитриевой">
+                      <svg width="34" height="28" viewBox="0 0 34 28" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M33.6667 0.666504H0.333344V27.3332H33.6667V0.666504ZM30.3333 7.33317L17 15.6665L3.66668 7.33317V3.99984L17 12.3332L30.3333 3.99984V7.33317Z" />
+                      </svg>
+                      <span class="visually-hidden">Почта эксперта Анны Дмитриевой</span>
+                    </a>
+                  </div>
+                </li>
+            </div>
+            <button class="slider-button slider-button-prev expert-swiper-prev" type="button"></button>
+            <button class="slider-button slider-button-next expert-swiper-next" type="button"></button>
+          </section>
+
+          <section class="contacts">
+            <h3 class="visually-hidden">Наши контакты</h3>
+            <div class="contacts-swiper">
+              <ul class="contacts__list swiper-wrapper">
+                <li class="contact-card contacts__item swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="assets/images/photo-moscow@1x.webp">
+                    <img class="contact-card__image" src="assets/images/photo-moscow@1x.png" alt="Изображение Москвы">
+                  </picture>
+                  <div class="contact__wrap">
+                    <address class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="17" height="22" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-location"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Москва</p>
+                        <p class="contact__body"><a href="#">ул. Иванова 15</a><br> д. 10 БЦ «Крол»</p>
+                      </div>
+                    </address>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="25" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Телефон</p>
+                        <p class="contact__body"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>
+                          работаем с 9 до 18:00</p>
+                      </div>
+                    </div>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="20" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-mail"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">E-mail</p>
+                        <p class="contact__body"><a href="mailto:">info-spb@isorus.ru</a><br> отдел продаж</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="contact-card contacts__item swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="assets/images/photo-saints-peterburg@1x.webp">
+                    <img class="contact-card__image" src="assets/images/photo-saints-peterburg@1x.png"
+                      alt="Изображение Москвы">
+                  </picture>
+                  <div class="contact__wrap">
+                    <address class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="17" height="22" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-location"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Москва</p>
+                        <p class="contact__body"><a href="#">ул. Иванова 15</a><br> д. 10 БЦ «Крол»</p>
+                      </div>
+                    </address>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="25" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Телефон</p>
+                        <p class="contact__body"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>
+                          работаем с 9 до 18:00</p>
+                      </div>
+                    </div>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="20" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-mail"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">E-mail</p>
+                        <p class="contact__body"><a href="mailto:">info-spb@isorus.ru</a><br> отдел продаж</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="contact-card contacts__item swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="assets/images/photo-kazan@1x.webp">
+                    <img class="contact-card__image" src="assets/images/photo-kazan@1x.png" alt="Изображение Москвы">
+                  </picture>
+                  <div class="contact__wrap">
+                    <address class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="17" height="22" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-location"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Москва</p>
+                        <p class="contact__body"><a href="#">ул. Иванова 15</a><br> д. 10 БЦ «Крол»</p>
+                      </div>
+                    </address>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="25" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Телефон</p>
+                        <p class="contact__body"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>
+                          работаем с 9 до 18:00</p>
+                      </div>
+                    </div>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="20" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-mail"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">E-mail</p>
+                        <p class="contact__body"><a href="mailto:">info-spb@isorus.ru</a><br> отдел продаж</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="contact-card contacts__item swiper-slide">
+                  <picture>
+                    <source type="image/webp" srcset="assets/images/photo-nizhny-novgorod@1x.webp">
+                    <img class="contact-card__image" src="assets/images/photo-nizhny-novgorod@1x.png"
+                      alt="Изображение Москвы">
+                  </picture>
+                  <div class="contact__wrap">
+                    <address class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="17" height="22" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-location"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Москва</p>
+                        <p class="contact__body"><a href="#">ул. Иванова 15</a><br> д. 10 БЦ «Крол»</p>
+                      </div>
+                    </address>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="25" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">Телефон</p>
+                        <p class="contact__body"><a href="tel:+79951234567">+7 (995) 123-45-67</a><br>
+                          работаем с 9 до 18:00</p>
+                      </div>
+                    </div>
+                    <div class="contact contact-card__item">
+                      <span class="contact__icon">
+                        <svg width="25" height="20" aria-hidden="true">
+                          <use xlink:href="assets/images/sprite.svg#icon-mail"></use>
+                        </svg>
+                      </span>
+                      <div class="contact__text">
+                        <p class="contact__header">E-mail</p>
+                        <p class="contact__body"><a href="mailto:">info-spb@isorus.ru</a><br> отдел продаж</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button class="slider-button slider-button-prev contacts-button-prev" type="button"></button>
+            <button class="slider-button slider-button-next contacts-button-next" type="button"></button>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__top">
+        <div class="inner">
+          <a class="logo page-footer__logo" href="./">
+            <picture>
+              <source type="image/webp" srcset="assets/images/logo.webp">
+              <img class="contact-card__image" src="assets/images/logo.png" alt="Логотип компании Стратегия Развития">
+            </picture>
+          </a>
+          <div class="page-footer__contacts">
+            <p class="page-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat elementum
+              sapien, nulla justo lorem ac
+              pellentesque nibh aliquet.</p>
+            <div class="contact page-footer__contact page-footer__contact-phone">
+              <span class="contact__icon page-footer__contact-icon">
+                <svg width="17" height="22" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+                </svg>
+              </span>
+              <div class="contact__text">
+                <p class="contact__header">Звонок по РФ бесплатный</p>
+                <p class="contact__body page-footer__contact-content"><a href="tel:+79951234567">+7 (995)
+                    123-45-67</a><br>
+                  мы
+                  работаем с 9 до 18:00</p>
+              </div>
+            </div>
+            <div class="contact page-footer__contact">
+              <span class="contact__icon page-footer__contact-icon">
+                <svg width="25" height="25" aria-hidden="true">
+                  <use xlink:href="assets/images/sprite.svg#icon-mail"></use>
+                </svg>
+              </span>
+              <div class="contact__text">
+                <p class="contact__header">Наша почта</p>
+                <p class="contact__body page-footer__contact-content"><a href="mailto:">info@nashsire.ru</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer__bottom">
+        <div class="inner page-footer__bottom-wrap">
+          <p class="page-footer__copyright">© 2020 Общество с ограниченной ответственностью "Стратерия развития"<br>
+            Сертификация продукции. Обязательная сертификация, добровольная сертификация.</p>
+          <p class="page-footer__bottom-links">
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">Согласие на обработку персональных данных</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="feedbackModal" class="modal modal__feedback">
+      <div class="modal__inner">
+        <button id="feedbackClose" class="modal__close" title="Закрыть окно">
+          <svg width="40" height="40" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-close"></use>
+          </svg>
+          <span class="visually-hidden">Закрыть окно</span></button>
+        <h2 class="modal__title">Есть вопросы - закажите обратный звонок</h2>
+        <p class="modal__description">Наш специалист перезвонит вам в течении получаса и ответит на ваши вопросы</p>
+        <form class="form modal__form" action="#">
+          <p class="form__item modal__form-item">
+            <span class="form__icon">
+              <svg width="16" height="16" aria-hidden="true">
+                <use xlink:href="assets/images/sprite.svg#icon-user"></use>
+              </svg>
+            </span>
+            <label class="form__label" for="userName">Как вас зовут?</label>
+            <input id="userName" class="form__field" type="text" placeholder="Иван Иванов">
+          </p>
+          <p class="form__item modal__form-item">
+            <span class="form__icon">
+              <svg width="16" height="16" aria-hidden="true">
+                <use xlink:href="assets/images/sprite.svg#icon-call"></use>
+              </svg>
+            </span>
+            <label class="form__label" for="userPhone">Ваш телефон?</label>
+            <input id="userPhone" class="form__field" type="tel" placeholder="+7 (995) 123-45-67">
+          </p>
+          <p class="form__item form__item--full-width">
+            <span class="form__icon">
+              <svg width="16" height="16" aria-hidden="true">
+                <use xlink:href="assets/images/sprite.svg#icon-message"></use>
+              </svg>
+            </span>
+            <label class="form__label" for="userMessage">Что вас интересует</label>
+            <input id="userMessage" class="form__field" type="text" placeholder="Ваш вопрос">
+          </p>
+          <button class="button button--wide">Задать вопрос</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="locationModal" class="modal modal__location">
+      <div class="modal__inner">
+        <button id="locationClose" class="modal__close" title="Закрыть окно">
+          <svg width="40" height="40" aria-hidden="true">
+            <use xlink:href="assets/images/sprite.svg#icon-close"></use>
+          </svg>
+          <span class="visually-hidden">Закрыть окно</span>
+        </button>
+        <div class="modal__location-section">
+          <p class="modal__location__letter">А</p>
+          <ul class="modal__location-list">
+            <li><a href="#">Абакан</a></li>
+            <li><a href="#">Азов</a></li>
+            <li><a href="#">Александров</a></li>
+            <li><a href="#">Алексин</a></li>
+            <li><a href="#">Альметьевск</a></li>
+            <li><a href="#">Анапа</a></li>
+            <li><a href="#">Ангарск</a></li>
+            <li><a href="#">Абакан</a></li>
+            <li><a href="#">Азов</a></li>
+            <li><a href="#">Александров</a></li>
+            <li><a href="#">Алексин</a></li>
+            <li><a href="#">Альметьевск</a></li>
+            <li><a href="#">Анапа</a></li>
+            <li><a href="#">Ангарск</a></li>
+            <li><a href="#">Абакан</a></li>
+            <li><a href="#">Азов</a></li>
+            <li><a href="#">Александров</a></li>
+            <li><a href="#">Алексин</a></li>
+            <li><a href="#">Альметьевск</a></li>
+            <li><a href="#">Анапа</a></li>
+            <li><a href="#">Ангарск</a></li>
+            <li><a href="#">Абакан</a></li>
+            <li><a href="#">Азов</a></li>
+            <li><a href="#">Александров</a></li>
+            <li><a href="#">Алексин</a></li>
+            <li><a href="#">Альметьевск</a></li>
+            <li><a href="#">Анапа</a></li>
+            <li><a href="#">Ангарск</a></li>
+          </ul>
+        </div>
+        <div class="modal__location-section">
+          <p class="modal__location__letter">Б</p>
+          <ul class="modal__location-list">
+            <li><a href="#">Балаково</a></li>
+            <li><a href="#">Балахна</a></li>
+            <li><a href="#">Балашиха</a></li>
+            <li><a href="#">Балашов</a></li>
+            <li><a href="#">Барнаул</a></li>
+            <li><a href="#">Батайск</a></li>
+            <li><a href="#">Белгород</a></li>
+            <li><a href="#">Балаково</a></li>
+            <li><a href="#">Балахна</a></li>
+            <li><a href="#">Балашиха</a></li>
+            <li><a href="#">Балашов</a></li>
+            <li><a href="#">Барнаул</a></li>
+            <li><a href="#">Батайск</a></li>
+            <li><a href="#">Белгород</a></li>
+            <li><a href="#">Балаково</a></li>
+            <li><a href="#">Балахна</a></li>
+            <li><a href="#">Балашиха</a></li>
+            <li><a href="#">Балашов</a></li>
+            <li><a href="#">Барнаул</a></li>
+            <li><a href="#">Батайск</a></li>
+            <li><a href="#">Белгород</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="overlayModal" class="modal-overlay"></div>
+
+    <script src="assets/scripts/script.min.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.experts-swiper', {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        freeMode: true,
+        navigation: {
+          nextEl: '.expert-swiper-next',
+          prevEl: '.expert-swiper-prev',
+        },
+        breakpoints: {
+          1500: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 10
+          },
+          1140: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 10
+          },
+          900: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 10
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0,
+            freeMode: false,
+          }
+        }
+      });
+
+      var swiper = new Swiper('.contacts-swiper', {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        freeMode: true,
+        navigation: {
+          nextEl: '.contacts-button-next',
+          prevEl: '.contacts-button-prev',
+        },
+        breakpoints: {
+          1500: {
+            slidesPerView: 4,
+            spaceBetweenSlides: 10
+          },
+          1140: {
+            slidesPerView: 3,
+            spaceBetweenSlides: 10
+          },
+          900: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 10
+          },
+          320: {
+            slidesPerView: 1,
+            spaceBetweenSlides: 0,
+            freeMode: false,
+          }
+        }
+      });
+
+    </script>
+  </body>
