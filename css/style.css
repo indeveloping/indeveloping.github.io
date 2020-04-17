@@ -207,6 +207,7 @@ input[type=radio]:checked + label:before {
 .page-production.ind-body:before {
   top: 0;
   right: -17em;
+  z-index: -1;
 }
 .page-production.ind-body:after {
   background: none;
