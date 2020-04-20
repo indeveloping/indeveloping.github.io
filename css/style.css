@@ -212,6 +212,9 @@ input[type=radio]:checked + label:before {
 .page-production.ind-body:after {
   background: none;
 }
+.page-card.ind-body:before {
+  right: -26em;
+}
 .ind-body-bg{}
 /*.ind-body-bg .ind-body-bg-right:before,.ind-body-bg .ind-body-bg-left:before{
   content: "";
@@ -356,6 +359,9 @@ input[type=radio]:checked + label:before {
 .btn-gradient:hover, .btn-gr-bord:hover, .btn-gradient:focus, .btn-gr-bord:focus {
   box-shadow: none;
   outline: none;
+}
+.bth-text-inherit {
+  text-transform: inherit;
 }
 
 

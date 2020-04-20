@@ -304,6 +304,110 @@
 .category-title {
   font-size: 1.65rem;
 }
+/* Card */
+.card-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+}
+.card-list li {
+  position: relative;
+  margin-bottom: 18px;
+  padding-left: 27px;
+}
+.card-list li:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 13px;
+  height: 14px;
+  background-image: url(../img/icon-check.png);
+}
+/*-- Details --*/
+.details-title {
+  position: relative;
+  margin-bottom: 25px;
+  padding-left: 40px;
+}
+.details-title:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 32px;
+  height: 31px;
+  background-repeat: no-repeat;
+}
+.details-title--properties:before {
+  background-image: url(../img/icon-settings.png);
+}
+.details-title--optional:before {
+  background-image: url(../img/icon-star.png);
+}
+.details-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.details-list li {
+  margin-bottom: 15px;
+}
+.details-table {
+  background-color: #ffffff;
+}
+.details-table thead {
+  color: #ffffff;
+  background-color: #0eb2e7;
+  background-image: linear-gradient(to right, #0eb2e7 0%,#9d62ff 100%);
+}
+.details-table thead th {
+  border: none;
+}
+.details-table th,
+.details-table td {
+  border: none;
+}
+.details-table th {
+  padding: 16px 25px;
+}
+.details-table tbody tr:nth-of-type(2n) {
+  background-color: #f1f4f6;
+}
+.details-btn span {
+  position: relative;
+  padding-left: 36px;
+}
+.details-btn span:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 16px;
+  width: 12px;
+  height: 17px;
+  background-image: url("../img/icon-download.png");
+  background-repeat: no-repeat;
+}
+.list-checks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list-checks li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+.list-checks li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 13px;
+  height: 14px;
+  background-image: url(../img/icon-check.png);
+}
 /*-- Advantages-section --*/
 #advantages-section{
   color: #ffffff;
