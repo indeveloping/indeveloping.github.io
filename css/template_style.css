@@ -1041,6 +1041,10 @@
   border-left: 15px solid #ffffff;
 }
 
+.news-card img {
+  width: 100%;
+}
+
 .news-card-date {
   position: relative;
   padding-left: 23px;

@@ -462,6 +462,10 @@ input[type=radio]:checked + label:before {
   height: 14px;
   margin-left: .55em;
 }
+.btn-disabled {
+  background-color: #eceff1;
+  background-image: transparent;
+}
 
 .ico-gradient > i {
   background-image: linear-gradient(to right, #0eb2e7 0%,#9d62ff 100%);
@@ -728,6 +732,7 @@ input[type=radio]:checked + label:before {
   border-radius: 0 0 2px 2px;
 }
 .lang-dropdown .lang-dropdown-menu li{
+  margin: 0;
   padding: 5px 22px 5px 10px;
   transition: all .5s ease-in-out;
 } 
@@ -1254,3 +1259,66 @@ input:invalid:not(:placeholder-shown) {
 input:invalid:not(:placeholder-shown) + .error {
   display: block;
 }
+
+.pagination li {
+  margin-right: 19px;
+  color: #9e9e9e;
+}
+
+@media (max-width: 400px) {
+  .pagination li {
+    margin-right: 12px;
+  }
+}
+
+.pagination li:last-child {
+  margin-right: 0;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #9e9e9e;
+}
+
+.pagination .current a {
+  color: #0eb2e7;
+}
+
+.pagination .first,
+.pagination .last {
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.pagination .first {
+  margin-right: 25px;
+}
+
+.pagination .last {
+  margin-left: 10px;
+}
+
+.pagination .first:before,
+.pagination .last:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  z-index: 9999;
+}
+
+.pagination .first:before {
+  right: 12px;
+  border-color: #b4b6b9;
+  transform: rotate(136deg);
+}
+
+.pagination .last:before {
+  right: 16px;
+  transform: rotate(-42deg);
+}
+
