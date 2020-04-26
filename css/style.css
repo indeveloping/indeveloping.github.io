@@ -821,6 +821,7 @@ input[type=radio]:checked + label:before {
   justify-content: space-around;
 }
 #nav-menu ul.nav-menu li, #nav-menu-xs ul.nav-menu li {
+  margin-bottom: 0;
 }
 #nav-menu ul.nav-menu li a, #nav-menu-xs ul.nav-menu li a {
   transition: 0.3s;
