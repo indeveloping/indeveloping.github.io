@@ -26,6 +26,7 @@
   font-size: 14px;
   line-height: 30px;
   color: #aaaaaa !important;
+  text-decoration: none;
 }
 /*-- About Section --*/
 #about-main{}
@@ -357,6 +358,11 @@
 .details-table {
   background-color: #ffffff;
 }
+@media (max-width: 400px) {
+  .details-table {
+    font-size: 12px;
+  }
+}
 .details-table thead {
   color: #ffffff;
   background-color: #0eb2e7;
@@ -369,7 +375,7 @@
 .details-table td {
   border: none;
 }
-.details-table th {
+.details-table th:first-child {
   padding: 16px 25px;
 }
 .details-table tbody tr:nth-of-type(2n) {
@@ -928,4 +934,109 @@
   
   #consult-section, .page-production #consult-section {margin-top: 4em;}
   #consult-section:before {top: -4em; height: calc(100% + 4em); bottom: 0; background-size: 350% 100%; transform: scale(1, 1); background-position: 100% bottom;}
+}
+
+.slider-item a:hover {
+  position: relative;
+  display: block;
+}
+
+.slider-item a:hover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slider-item a:hover:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  width: 30px;
+  height: 29px;
+  background-image: url(../img/icon-loop.png);
+  background-repeat: no-repeat;
+  transform: translate(-50%, 0);
+  z-index: 9999;
+}
+
+.slider-btn {
+  position: relative;
+  padding: 20px;
+}
+
+.slider-btn--prev {
+  position: absolute;
+  top: 43%;
+  left: -55px;
+}
+
+.slider-btn--next {
+  position: absolute;
+  top: 43%;
+  right: -55px;
+}
+
+.slider-btn--prev:before,
+.slider-btn--next:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  z-index: 9999;
+}
+
+.slider-btn--prev:before {
+  left: 18px;
+  transform: rotate(142deg);
+}
+
+.slider-btn--next:before {
+  left: 12px;
+  transform: rotate(-42deg);
+}
+
+.video-player {
+  position: relative;
+}
+
+.video-player img {
+  width: 100%;
+}
+
+.video-player-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 72px;
+  height: 72px;
+  margin-right: -50%;
+  border: none;
+  border-radius: 50%;
+  background-color: #0eb2e7;
+  background-image: linear-gradient(to right, #0eb2e7 0%,#9d62ff 100%);
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.video-player-btn:before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  display: block;
+  width: 0;
+  height: 0;
+  border: 11px solid transparent;
+  border-left: 15px solid #ffffff;
 }
